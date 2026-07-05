@@ -53,7 +53,7 @@ app.use((req,res,next) => {
 app.use("/auth", loginRoute)
 //app.use(authentication);
 
-app.use('/', productsRouter);  // /apy en vez /
+app.use('/api', productsRouter);  // /apy en vez /
 
 
 /*http://localhost:3000/ping */
